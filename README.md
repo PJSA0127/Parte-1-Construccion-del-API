@@ -1,4 +1,4 @@
-# 🚀 Crypto Dashboard PRO
+# 🚀 Crypto Dashboard 
 
 ¡Bienvenido a la versión avanzada de la API de Criptomonedas! Este proyecto ha sido transformado de una API básica a un **Dashboard Interactivo completo** con análisis de mercado, conversor de divisas, gráficos históricos y sistema de alertas.
 
@@ -56,5 +56,3 @@ start index.html
 - `static/js/`: Lógica de interactividad, gráficos y consumo de API.
 - `index.html`: Estructura principal del Dashboard.
 
----
-Desarrollado con ❤️ para el análisis de activos digitales.
