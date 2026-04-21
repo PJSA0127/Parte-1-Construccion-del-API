@@ -1,0 +1,114 @@
+body {
+    background-color: #f0f4f8;
+    color: #2d3436;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #6c5ce7 !important;
+}
+
+.crypto-card {
+    border: none;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.crypto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(108, 92, 231, 0.1);
+}
+
+.crypto-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #636e72;
+    margin-bottom: 5px;
+}
+
+.crypto-price {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #2d3436;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    background: white;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    display: inline-flex;
+}
+
+.nav-link {
+    border: none !important;
+    border-radius: 50px !important;
+    color: #636e72 !important;
+    padding: 10px 25px !important;
+    font-weight: 600;
+}
+
+.nav-link.active {
+    background-color: #6c5ce7 !important;
+    color: white !important;
+}
+
+.btn-primary {
+    background-color: #6c5ce7;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #a29bfe;
+}
+
+select.form-select, input.form-control {
+    border-radius: 10px;
+    border: 1px solid #dfe6e9;
+    padding: 12px;
+}
+
+.history-item {
+    border-left: 4px solid #6c5ce7;
+    background: #f9f9f9;
+    margin-bottom: 8px;
+    padding: 12px;
+    border-radius: 0 10px 10px 0;
+}
+
+.history-date {
+    font-weight: 700;
+    color: #636e72;
+}
+
+.history-value {
+    font-weight: 800;
+    color: #6c5ce7;
+}
+
+/* Estilos para el Modal */
+.modal-content {
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.modal-backdrop.show {
+    opacity: 0.7;
+    background-color: #2d3436;
+}
+
+canvas {
+    max-height: 400px;
+}
