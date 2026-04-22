@@ -1,8 +1,8 @@
-# API Monitoreo SOS
+# 🚨 API Monitoreo SOS
 
 ## 📌 Descripción
 
-API desarrollada con FastAPI para la gestión de eventos de monitoreo de alarmas.
+API desarrollada con **FastAPI** para la gestión de eventos de monitoreo de alarmas.
 
 Permite:
 
@@ -32,15 +32,25 @@ python -m uvicorn app.main:app --reload
 
 Abrir en el navegador:
 
+```
 http://127.0.0.1:8000/docs
+```
 
 ---
 
-## 📡 Endpoints
+## 🔌 Endpoints
+
+### 🔹 GET /
+
+Verifica que la API está funcionando
+
+---
 
 ### 🔹 GET /eventos
 
 Obtiene todos los eventos registrados
+
+---
 
 ### 🔹 POST /eventos
 
@@ -56,6 +66,8 @@ Ejemplo:
 }
 ```
 
+---
+
 ### 🔹 PUT /eventos/{evento_id}
 
 Marca un evento como resuelto
@@ -65,12 +77,37 @@ Marca un evento como resuelto
 ## 📸 Evidencia
 
 ### API funcionando
-![Swagger](images/docs.png)
 
-### Crear evento
-![POST](images/post.png)
+![Swagger](https://raw.githubusercontent.com/PJSA0127/Parte-1-Construccion-del-API/desarrollo_jorge/Images/docs.png)
 
-### Resolver evento
-![PUT](images/put.png)
+### Crear evento (POST)
+
+![POST](https://raw.githubusercontent.com/PJSA0127/Parte-1-Construccion-del-API/desarrollo_jorge/Images/post.png)
+
+### Resolver evento (PUT)
+
+![PUT](https://raw.githubusercontent.com/PJSA0127/Parte-1-Construccion-del-API/desarrollo_jorge/Images/put.png)
 
 ---
+
+## 🚀 Tecnologías utilizadas
+
+* Python
+* FastAPI
+* Uvicorn
+* Pydantic
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+app/
+ ├── main.py
+ └── schemas/
+     └── evento_schema.py
+
+Images/
+README.md
+requirements.txt
+```
