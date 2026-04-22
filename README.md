@@ -64,13 +64,13 @@ Marca un evento como resuelto
 
 ## 📸 Evidencia
 
-Aquí se muestran capturas del API funcionando localmente:
+### API funcionando
+![Swagger](images/docs.png)
 
-* Swagger funcionando
-* Creación de eventos
-* Consulta de eventos
-* Actualización de eventos
+### Crear evento
+![POST](images/post.png)
 
-(Aquí debes agregar tus capturas de pantalla)
+### Resolver evento
+![PUT](images/put.png)
 
 ---
