@@ -56,3 +56,10 @@ start index.html
 - `static/js/`: Lógica de interactividad, gráficos y consumo de API.
 - `index.html`: Estructura principal del Dashboard.
 
+## Evidencias
+![http://127.0.0.1:8000/](images/http127.0.0.18000.png)  
+![http://127.0.0.1:8000/docs](images/http127.0.0.18000docs.png)  
+![http://127.0.0.1:8000/crypto](images/http127.0.0.18000crypto.png)  
+![http://127.0.0.1:8000/crypto/ethereum](images/http127.0.0.18000cryptoethereum.png)  
+![http://127.0.0.1:8000/report/top](images/http127.0.0.18000reporttop.png)  
+![http://127.0.0.1:8000/report/volatility](images/http127.0.0.18000reportvolatility.png)
